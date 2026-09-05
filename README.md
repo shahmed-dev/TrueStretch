@@ -51,16 +51,6 @@ windres app.rc -O coff -o app_res.o
 g++ -std=c++17 -mwindows -municode -O2 app.cpp util.cpp controls.cpp dialog.cpp monitors.cpp display.cpp app_res.o -o AspectFlow.exe -ldwmapi -luxtheme -lsetupapi -lcfgmgr32 -lcomctl32 -lshell32 -luser32 -lgdi32 -static -static-libgcc -static-libstdc++
 ```
 
-## Project layout
-
-- `app.cpp` — application window, layout, and interaction logic.
-- `controls.cpp` — custom buttons, labels, cards, combo boxes, and edit controls.
-- `dialog.cpp` — dark modal dialogs.
-- `monitors.cpp` — monitor enumeration and Device Manager operations.
-- `display.cpp` — resolution enumeration, switching, and custom-resolution support.
-- `util.cpp` — fonts, dark title bar, and utility helpers.
-- `app.rc` and `app.manifest` — icon, application metadata, and DPI/common-control settings.
-
 ## Credits
 
 Created by Derwesh  
