@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="2720" height="2720" alt="aspectflow_icon_v2" src="https://github.com/user-attachments/assets/6efb0a06-748e-4a2a-9a0f-06533195e70b" />
+<img width="100" height="100" alt="aspectflow_icon_v2" src="https://github.com/user-attachments/assets/6efb0a06-748e-4a2a-9a0f-06533195e70b" />
 
 # AspectFlow
 
