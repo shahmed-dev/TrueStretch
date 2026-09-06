@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="60" height="60" alt="truestretch" src="https://github.com/user-attachments/assets/e45109d8-edc3-4f67-be60-0f8ff19b3c80" />
+<img width="80" height="80" alt="truestretch" src="https://github.com/user-attachments/assets/e45109d8-edc3-4f67-be60-0f8ff19b3c80" />
 
 # TrueStretch
 
