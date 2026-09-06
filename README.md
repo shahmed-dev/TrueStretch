@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100" height="100" alt="aspectflow_icon_v2" src="https://github.com/user-attachments/assets/6efb0a06-748e-4a2a-9a0f-06533195e70b" />
+<img width="60" height="60" alt="truestretch" src="https://github.com/user-attachments/assets/e45109d8-edc3-4f67-be60-0f8ff19b3c80" />
 
-# AspectFlow
+# TrueStretch
 
 **Device Manager & Display Settings — for Windows**
 
@@ -17,9 +17,9 @@
 
 ---
 
-## 🖥️ What Is AspectFlow?
+## 🖥️ What Is TrueStretch?
 
-AspectFlow is a compact dark-themed desktop utility that gives you direct control over your Windows display setup. Whether you're a gamer switching to a stretch resolution, a multi-monitor user managing active devices, or just someone who wants finer control over their display than Windows Settings allows — AspectFlow has you covered.
+TrueStretch is a compact dark-themed desktop utility that gives you direct control over your Windows display setup. Whether you're a gamer switching to a stretch resolution, a multi-monitor user managing active devices, or just someone who wants finer control over their display than Windows Settings allows — TrueStretch has you covered.
 
 It talks directly to Windows Device Manager and the display driver stack, the same way Windows itself does, with no third-party libraries and no internet connection required.
 
@@ -59,13 +59,13 @@ It talks directly to Windows Device Manager and the display driver stack, the sa
 
 ## 🎮 Safe for Gamers
 
-AspectFlow is designed with gamers in mind. Here is what you need to know:
+TrueStretch is designed with gamers in mind. Here is what you need to know:
 
 ### Stretch Resolutions
-Many competitive players use a **non-native stretch resolution** (like 1440×1080 or 1280×1024) for a wider field of view or personal preference. AspectFlow makes this effortless — browse supported modes, pick one, and apply. Your choice is saved to the Windows registry so it survives reboots.
+Many competitive players use a **non-native stretch resolution** (like 1440×1080 or 1280×1024) for a wider field of view or personal preference. TrueStretch makes this effortless — browse supported modes, pick one, and apply. Your choice is saved to the Windows registry so it survives reboots.
 
 ### Custom Resolutions
-If your resolution is not in the list, use **Test & Add**. AspectFlow registers the resolution using three methods simultaneously:
+If your resolution is not in the list, use **Test & Add**. TrueStretch registers the resolution using three methods simultaneously:
 - Windows CCD (display configuration database) — works on Intel, AMD, and NVIDIA
 - Monitor EDID override — the same technique used by Custom Resolution Utility (CRU)
 - GPU adapter registry — fallback for older integrated graphics
@@ -79,20 +79,20 @@ All three run at once so the mode is as widely registered as possible.
 - Windows simply marks the device node as disabled in Device Manager
 - The physical monitor hardware is not damaged or modified in any way
 - The display driver is instructed to stop using that output path
-- **Re-enabling takes one click** — AspectFlow shows an Enable Device button whenever a disabled monitor is selected
-- If you accidentally disable your only active monitor and the screen goes black, you can re-enable it through Windows Safe Mode, or connect another display and open AspectFlow
+- **Re-enabling takes one click** — TrueStretch shows an Enable Device button whenever a disabled monitor is selected
+- If you accidentally disable your only active monitor and the screen goes black, you can re-enable it through Windows Safe Mode, or connect another display and open TrueStretch
 
-This is the same operation Device Manager performs when you right-click a device and choose **Disable device**. AspectFlow simply makes it faster and more accessible.
+This is the same operation Device Manager performs when you right-click a device and choose **Disable device**. TrueStretch simply makes it faster and more accessible.
 
 ### Resolution Persistence
-When you apply a resolution and choose to keep it, AspectFlow writes it with `CDS_UPDATEREGISTRY` — the Windows-standard flag that persists display settings across reboots. You will not revert to a stretch resolution after restarting your system.
+When you apply a resolution and choose to keep it, TrueStretch writes it with `CDS_UPDATEREGISTRY` — the Windows-standard flag that persists display settings across reboots. You will not revert to a stretch resolution after restarting your system.
 
 ---
 
 ## 🛡️ Safety & Permissions
 
 - **UAC elevation** is requested only when needed (monitor enable/disable, EDID registry write)
-- **No background services** — AspectFlow is a single executable with no auto-start or background processes
+- **No background services** — TrueStretch is a single executable with no auto-start or background processes
 - **No network access** — everything runs locally using Windows APIs only
 - **Fully reversible** — every action can be undone within the app itself
 - **Resolution restore** — if a resolution change causes display issues, a 10-second confirmation window lets you revert automatically
@@ -117,7 +117,7 @@ cmake -S . -B build -G "MinGW Makefiles"
 cmake --build build
 ```
 
-Output: `build/AspectFlow.exe`
+Output: `build/TrueStretch.exe`
 
 ### Visual Studio 2022
 
