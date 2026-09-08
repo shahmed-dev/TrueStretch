@@ -163,6 +163,4 @@ Yes, if you choose to keep it — it's written to the registry with the standard
 
 *Built with native Win32 / C++17 — no frameworks, no dependencies, no compromise.*
 
-**Keywords:** TrueStretch, True Stretch, True Stretch Resolution, Windows stretch resolution, custom resolution utility, monitor device manager tool, disable enable monitor Windows, display resolution changer
-
 </div>
